@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  line-height: normal;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 56px;
+  width: 100%;
+  padding: 9px 16px;
+  background-color: #343A40;
+  color: white;
+}
+
+@media screen and (min-width: 577px) {
+  .header {
+    justify-content: flex-start;
+  }
+  .header__burger {
+    position: absolute;
+    left: -500px;
+  }
+}
+
+.header__nav {
+  display: flex;
+  margin-top: 10px;
+}
+
+.header__nav-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .header__nav-list {
+    position: absolute;
+    left: -500px;
+  }
+}
+
+.header__link-item {
+  color: white;
+  margin: 0 8px;
+}
+
+.header__logo {
+  font-size: 20px;
+  align-self: center;
+  margin: 9px 16px 5px 0;
+}
+
+.header__burger {
+  width: 54px;
+  height: 38px;
+  padding: 4px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  transition: background-color 0.4s;
+}
+
+.header__burger:active {
+  background-color: #212529;
+}
+
+.header__burgerline {
+  width: 26px;
+  height: 2px;
+  margin: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  align-self: center;
+}
+
+/* header end */
