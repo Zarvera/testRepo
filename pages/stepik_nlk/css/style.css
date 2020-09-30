@@ -88,3 +88,23 @@ ul {
 }
 
 /* header end */
+
+.main {
+  max-width: 1219px;
+  margin: auto;
+  margin-top: 56px;
+}
+
+.card {
+  margin-bottom: 32px;
+}
+
+table {
+  border: 1px solid #DEE2E6;
+  overflow: scroll;
+}
+
+td, th {
+  padding: 20px 15px;
+  border: 1px solid #DEE2E6;
+}
