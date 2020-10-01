@@ -1,0 +1,40 @@
+.header__wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 72px;
+  width: 100%;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: +1;
+  background-color: #fff;
+}
+
+.header__button {
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  padding: 14px 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .header__other>a {
+    display: none;
+  }
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+
+p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.card {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
