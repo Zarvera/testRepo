@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
-<body>
+<body class="body">
   <header class="header">
     <div class="header__wrap">
       <div class="header__logo">
@@ -26,8 +26,8 @@
       <div class="col-xs-12">
         <input type="search" name="" value="" placeholder="Поиск по ресторанам и кухням" class="search">
       </div>
-      <div class="col-xs-12" style="margin-top: 57px; margin-bottom: 15px">
-        <div>Рестораны в Москве</div>
+      <div class="col-xs-12" style="margin-top: 57px">
+        <div class="cardlist__title">Рестораны в Москве</div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card">
@@ -40,85 +40,123 @@
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card">
           <img src="img/2.png" alt="">
+          <h4>DimSum & Co — ЦДМ</h3>
+          <p>₽ • Японская • Китайская • Азиатская</p>
+          <p>40 - 50 мин</p>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card">
           <img src="img/3.png" alt="">
+          <h4>ДвижОК — Манежная</h3>
+          <p>₽ • Американская • Европейская</p>
+          <p>35 - 45 мин</p>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card">
-          <img src="img/1.png" alt="">
-          <h4>Макдоналдс — Газетный</h3>
-          <p>₽₽ • Бургеры</p>
+          <img src="img/4.png" alt="">
+          <h4>НЯ — NHA</h3>
+          <p>₽₽ • Вьетнамская</p>
+          <p>30 - 40 мин</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/5.png" alt="">
+          <h4>Точка Дзы — Цветной</h3>
+          <p>₽₽ • Вьетнамская</p>
+          <p>40 - 50 мин</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/6.png" alt="">
+          <h4>Cinnabon</h3>
+          <p>₽ • Выпечка • Десерты • Капкейки</p>
           <p>25 - 35 мин</p>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card">
-          <img src="img/1.png" alt="">
-          <h4>Макдоналдс — Газетный</h3>
-          <p>₽₽ • Бургеры</p>
+          <img src="img/7.png" alt="">
+          <h4>PIZZELOVE</h3>
+          <p>₽₽ • Пицца</p>
+          <p>15 - 25 мин</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="img/8.png" alt="">
+          <h4>Zю кафе — Тверская</h3>
+          <p>₽₽ • Японская</p>
           <p>25 - 35 мин</p>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="card">
-          <img src="img/1.png" alt="">
-          <h4>Макдоналдс — Газетный</h3>
-          <p>₽₽ • Бургеры</p>
-          <p>25 - 35 мин</p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card">
-          <img src="img/1.png" alt="">
-          <h4>Макдоналдс — Газетный</h3>
-          <p>₽₽ • Бургеры</p>
-          <p>25 - 35 мин</p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card">
-          <img src="img/1.png" alt="">
-          <h4>Макдоналдс — Газетный</h3>
-          <p>₽₽ • Бургеры</p>
-          <p>25 - 35 мин</p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card">
-          <img src="img/1.png" alt="">
-          <h4>Макдоналдс — Газетный</h3>
-          <p>₽₽ • Бургеры</p>
-          <p>25 - 35 мин</p>
+          <img src="img/9.png" alt="">
+          <h4>Bar BQ Cafe — Манежная</h3>
+          <p>₽₽₽ • Европейская</p>
+          <p>30 - 40 мин</p>
         </div>
       </div>
     </div>
   </main>
   <footer class="footer">
-    <div class="row">
-      <div class="col-xs-12">
-        <img src="/img/white-logo.svg" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 footer__logo">
+          <img src="img/white-logo.svg" alt="">
+        </div>
+        <hr class="col-xs">
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-7 col-md-4 col-lg-4">
-
+      <div class="row">
+        <div class="col-xs-7 col-md-4 col-lg-4">
+          <div class="dropdown col-xs-7 col-md-9 col-lg-9">
+            <label for="language"><img src="img/language.png" alt=""></label>
+            <select id="language">
+              <option value="ru">Русский</option>
+              <option value="en">English</option>
+            </select>
+            <img src="img/dropdown.svg" alt="">
+          </div>
+          <div class="hash">UberEats</div>
+          <div>
+            <img src="img/facebook.svg" alt="" class="sm-icon">
+            <img src="img/twitter.svg" alt="" class="sm-icon">
+            <img src="img/instagram.svg" alt="" class="sm-icon">
+          </div>
+        </div>
+        <div class="col-xs-7 col-md-4 col-lg-4">
+          <div class="footer__link"><a href="#!">Об UberEats</a></div>
+          <div class="footer__link"><a href="#!">Станьте партнёром по доставке</a></div>
+          <div class="footer__link"><a href="#!">Станьте парнёром-рестораном</a></div>
+        </div>
+        <div class="col-xs-7 col-md-4 col-lg-4">
+          <div class="footer__link"><a href="#!">Все города</a></div>
+          <div class="footer__link"><a href="#!">Цены</a></div>
+          <div class="footer__link"><a href="#!">Помощь</a></div>
+          <div class="footer__link"><a href="#!">FAQs</a></div>
+        </div>
+        <hr class="col-xs-12">
       </div>
-      <div class="col-xs-7 col-md-4 col-lg-4">
-        <div><a href="#!">Об UberEats</a></div>
-        <div><a href="#!">Станьте партнёром по доставке</a></div>
-        <div><a href="#!">Станьте парнёром-рестораном</a></div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="appstore">
+            <div class="appstore__img"><img src="img/as.png" alt=""></div>
+            <div class="appstore__img"><img src="img/gp.png" alt=""></div>
+          </div>
+        </div>
+        <hr class="col-xs-12">
       </div>
-      <div class="col-xs-7 col-md-4 col-lg-4">
-        <div><a href="#!">Все города</a></div>
-        <div><a href="#!">Цены</a></div>
-        <div><a href="#!">Помощь</a></div>
-        <div><a href="#!">FAQs</a></div>
+      <div class="row credits">
+          <div class="col-xs-7 col-md-4 col-lg-4 credits__item">© 2017 Uber Technologies Inc.</div>
+          <div class="col-xs-7 col-md-4 col-lg-4 credits__item">Обработка персональных данных</div>
+          <div class="col-xs-7 col-md-4 col-lg-4 credits__item">Пользовательское соглашение</div>
       </div>
     </div>
   </footer>
+  <div class="return"><a href="#top"><img src="img/return.png" alt=""></a></div>
 </body>
 </html>

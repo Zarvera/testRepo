@@ -1,6 +1,7 @@
-body {
-  font-family: Roboto, serif;
+.body {
+  font-family: "Roboto", serif !important;
   font-size: 16px;
+  margin: 0;
 }
 
 .header {
@@ -21,7 +22,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  padding: 16px;
+  padding: 8px;
   align-items: center;
   justify-content: space-between;
 }
@@ -68,7 +69,7 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
   .header__other>a {
     display: none;
   }
@@ -77,11 +78,19 @@ body {
 h4 {
   margin-top: 15px;
   margin-bottom: 2px;
+  font-weight: 400;
+  color: #1d1d1d;
 }
 
 p {
   margin-top: 2px;
   margin-bottom: 2px;
+  font-size: 0.9rem;
+  color: #626262;
+}
+
+.cardlist__title {
+  font-size: 1.375rem;
 }
 
 .card {
@@ -101,7 +110,7 @@ p {
   width: 100%;
   font-family: Roboto, serif;
   font-size: 1rem;
-  padding-top: 110px;
+  margin-top: 110px;
 }
 
 .header__other img {
@@ -110,4 +119,105 @@ p {
 
 .footer {
   background-color: #262626;
+  color: white;
+  margin-top: 64px;
+}
+
+.footer__logo {
+  padding-top: 56px;
+}
+
+.footer hr {
+  background-color: #fff;
+  opacity: 0.4;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin: 12px 0 33px 0;
+  background-color: #3b3b3b;
+}
+
+label, select, option {
+  color: white;
+  background-color: #3b3b3b;
+}
+
+select, option {
+  width: 100%;
+  height: 100%;
+  margin-left: 16px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.hash {
+  margin-bottom: 20px;
+}
+
+.hash::before {
+  color: #49A144;
+  content: "#"
+}
+
+.sm-icon {
+  margin-right: 20px;
+}
+
+.footer__link {
+  padding: 12px 0;
+  font-size: 0.8125rem;
+}
+
+.appstore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.appstore__img {
+  padding: 0 20px;
+}
+
+.credits {
+  padding: 20px 0 40px 0;
+  font-size: 0.6875rem;
+}
+
+@media screen and (max-width: 768px) {
+  .credits__item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.return {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+  background-color: #59BD5A;
+  border-radius: 2px;
 }
